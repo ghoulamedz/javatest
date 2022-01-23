@@ -14,12 +14,12 @@ class JavaTest {
         } while (choice < '1' || choice > '5');
         System.out.println("\n");
         switch (choice) {
-            case '1' -> {
+            case '1':
                 System.out.println("The if:\n");
                 System.out.println("if(condition) statement;");
                 System.out.println("else statement;");
-            }
-            case '2' -> {
+                break;
+            case '2':
                 System.out.println("The switch:\n");
                 System.out.println("switch(expression) {");
                 System.out.println(" case constant:");
@@ -27,22 +27,22 @@ class JavaTest {
                 System.out.println(" break; ");
                 System.out.println(" //...");
                 System.out.println("}");
-            }
-            case '3' -> {
+                break;
+            case '3':
                 System.out.println("The while:\n");
                 System.out.println("while(condition) statement;");
-            }
-            case '4' -> {
+                break;
+            case '4':
                 System.out.println("The do-while:\n");
                 System.out.println("do {");
                 System.out.println(" statement;");
                 System.out.println("} while (condition);");
-            }
-            case '5' -> {
+                break;
+            case '5':
                 System.out.println("The for:\n");
                 System.out.print("for(init; condition; iteration)");
                 System.out.println(" statement;");
-            }
+                break;
         }
     }
 }
